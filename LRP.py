@@ -82,6 +82,7 @@ class LRP():
 
         # To know the change in the dimensions between features and classifier
         feature_to_class_shape = forward_output[-1].shape
+        print(feature_to_class_shape)
         # Flatten so we can continue doing forward passes at classifier layers
         forward_output[-1] = torch.flatten(forward_output[-1], 1)
         for index, classifier_layer in enumerate(list(self.model._modules['fc_layers'])):
