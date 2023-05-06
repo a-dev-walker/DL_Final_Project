@@ -2,4 +2,4 @@
 Deep learning final project. CNN for histopathology images
 
 
-Test_commit for updating!
+Github repository for the deep learning project "Deep Learning Histopathologic Metastasis Classification" by Adam Walker and Ryusei Miyanaga. 
