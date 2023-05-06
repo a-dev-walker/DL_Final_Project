@@ -10,3 +10,7 @@ As for the neptune integration, you will need to create a neptune project for th
 
 
 The visualization portion of the code is in it's own python notebook labeled "Visualization_processing." All of the files required for this processing are included in this repository and the code should work as intended by simply running it. Please note that there is one code chunk in this script to rename input files. These files have already been renamed and thus this chunk can be commented out when recreating the processing. 
+
+
+Gradcam code is obtained from the following github repository:
+https://github.com/jacobgil/pytorch-grad-cam
